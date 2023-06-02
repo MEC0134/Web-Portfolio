@@ -47,11 +47,7 @@ app.get('/project/:id', (req, res) => {
   
 
 
-
-
-
-// Configure Server 
-app.listen(3000, (err) => {
-    if(err) console.log(err);
+// Configure Server for Heroku and localy
+app.listen(process.env.PORT || 3000, () => {
     console.log("Server running on 3000");
 });

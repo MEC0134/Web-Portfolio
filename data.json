@@ -1,0 +1,92 @@
+{
+    "Projects": 
+    [
+        {
+            "id": "0",
+            "projectName": "Simon Game",
+            "description": "Game to test the limits of its users short term memory designed using mainly JQuery.",
+            "technologies": ["HTML", "CSS", "Javascript", "JQuery"],
+            "liveDemo": "https://mec0134.github.io/Simon-Game/",
+            "gitHubRepo": "https://github.com/MEC0134/Simon-Game", 
+            "images": ["simonGame.png", "simonGame1.png", "simonGame2.png"]
+        },
+
+        {
+            "id": "1",
+            "projectName": "Drum Kit",
+            "description": "Web Application where the user can play different drums by cliking the buttons or using keyboard commands.",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "liveDemo": "https://mec0134.github.io/drum-kit-app/",
+            "gitHubRepo": "https://github.com/MEC0134/drum-kit-app",
+            "images": ["drumKit.png", "drumKit1.png"]
+        }, 
+
+        {
+            "id": "2",
+            "projectName": "Front-End Portfolio",
+            "description": "Front-End Portfolio to showcase my front end web development skills by using very attractive colors and fonts and adding other features with user experience in mind.",
+            "technologies": ["HTML",  "CSS", "Javascript", "JQuery", "Bootstrap", "Font-Awesome"],
+            "liveDemo": "https://mec0134.github.io/My-Front-End-Portfolio/",
+            "gitHubRepo": "https://github.com/MEC0134/My-Front-End-Portfolio",
+            "images": ["frontEndPortfolio.png", "frontEndPortfolio1.png", "frontEndPortfolio2.png"]
+        },
+
+        {
+            "id": "3",
+            "projectName": "Pagination",
+            "description": "Online contact list to display my abilities in using Vanilla Javascript to create my own custom pagination without the use of any built in functions of any library. ",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "liveDemo": "https://mec0134.github.io/Custom-Pagination/",
+            "gitHubRepo": "https://github.com/MEC0134/Custom-Pagination",
+            "images": ["pagination.png", "pagination1.png", "pagination2.png"]
+        },
+        
+        {
+            "id": "4",
+            "projectName": "Noteness",
+            "description": "A very modern and sleek looking note taking app created using React and working with forms in React which lets users create and delete notes.",
+            "technologies": ["HTML", "CSS", "React", "Material-UI"],
+            "liveDemo": "https://mec0134.github.io/noteness/",
+            "gitHubRepo": "https://github.com/MEC0134/noteness",
+            "images": ["noteness.png", "noteness1.png", "noteness2.png"]
+        }, 
+
+        {
+            "id": "5",
+            "projectName": "TinDog",
+            "description": "A website designed for dogs who want to connect with other dogs in their neighborhood. A very attractive website making use of the grid system of Bootstrap library to make it very mobile friendly.",
+            "technologies": ["HTML", "CSS", "Bootstrap", "Font-Awesome"],
+            "liveDemo": "https://mec0134.github.io/TinDog---Tinder-For-Dogs/",
+            "gitHubRepo": "https://github.com/MEC0134/TinDog---Tinder-For-Dogs",
+            "images": ["tindog.png", "tindog1.png", "tindog2.png"]
+        },
+
+        {
+            "id": "6",
+            "projectName": "Employees Api",
+            "description": "Creating a contact list by making use of the randomuser api and adding a search feature with modals for each employee.",
+            "technologies": ["HTML", "CSS", "Javascript", "JQuery", "Fetch API"],
+            "liveDemo": "https://mec0134.github.io/employees-api-project/",
+            "gitHubRepo": "https://github.com/MEC0134/employees-api-project",
+            "images": ["employeesApi.png", "employeesApi1.png", "employeesApi2.png"]
+        },
+        {
+            "id": "7",
+            "projectName": "Beauty World",
+            "description": "A React app making use of API with the help of the Axios library to connect to the back-end to display cosmetic products to users and giving the ability to delete, load more and search for certain products.",
+            "technologies": ["HTML", "CSS", "Javascript", "React", "Axios", "Material-UI", "Bootstrap"],
+            "liveDemo": "https://beauty-world-mec.netlify.app/",
+            "gitHubRepo": "https://github.com/MEC0134/Beauty_World",
+            "images": ["beautyWorld1.png", "beautyWorld2.png", "beautyWorld3.png"]
+        },
+        {
+            "id": "8",
+            "projectName": "To Do List",
+            "description": "A simple and attractive app used to create a to do list with the users having the ability to adjust the background-color of the app and a simple guide which display when the user first enters the page.",
+            "technologies": ["HTML", "CSS", "Javascript", "React"],
+            "liveDemo": "https://mec0134.github.io/to-do-list/",
+            "gitHubRepo": "https://github.com/MEC0134/to-do-list",
+            "images": ["toDoList.png", "toDoList1.png", "toDoList2.png"]
+        }
+    ]
+}

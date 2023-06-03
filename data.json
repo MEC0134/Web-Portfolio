@@ -25,7 +25,7 @@
             "id": "2",
             "projectName": "Front-End Portfolio",
             "description": "Front-End Portfolio to showcase my front end web development skills by using very attractive colors and fonts and adding other features with user experience in mind.",
-            "technologies": ["HTML",  "CSS", "Javascript", "JQuery", "Bootstrap", "Font-Awesome"],
+            "technologies": ["HTML",  "CSS", "Javascript", "JQuery", "Bootstrap", "Font-Awesome", "Mobile-Friendly"],
             "liveDemo": "https://mec0134.github.io/My-Front-End-Portfolio/",
             "gitHubRepo": "https://github.com/MEC0134/My-Front-End-Portfolio",
             "images": ["frontEndPortfolio.png", "frontEndPortfolio1.png", "frontEndPortfolio2.png"]

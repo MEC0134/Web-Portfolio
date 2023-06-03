@@ -1,1 +1,0 @@
-web: launch app.js

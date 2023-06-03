@@ -58,20 +58,21 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background-color: #0b0012;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #F9F5F6;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #FFFAF4;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -86,6 +87,8 @@ a:hover{
   margin: 0;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
  .portfolio-breadcrumb a{
@@ -100,16 +103,22 @@ a:hover{
 .portfolio-intro{
   margin: 0;
   padding: 40px 50px 30px;
+  color: #0b0012;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
 .portfolio-intro p{
   border-bottom: 1px solid #eaeaea;
+  color: #0b0012;
   padding-bottom: 40px;
 }
 
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
   .portfolio-index .thumbnail{
@@ -129,7 +138,8 @@ a:hover{
     }
 
 .portfolio-meta{
-  padding-left: 20px;
+  padding-left: 25px;
+  padding-right: 10px;
 }
 
   .portfolio-meta .button{
@@ -141,7 +151,7 @@ a:hover{
 }
 
 .portfolio-project li{
-  font-size: 13px;
+  font-size: 0.9em;
   color: #444;
 }
 

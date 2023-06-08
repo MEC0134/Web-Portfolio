@@ -87,6 +87,15 @@
             "liveDemo": "https://mec0134.github.io/to-do-list/",
             "gitHubRepo": "https://github.com/MEC0134/to-do-list",
             "images": ["toDoList.png", "toDoList1.png", "toDoList2.png"]
+        },
+        {
+            "id": "9",
+            "projectName": "Dice Game",
+            "description": "A dice game made for you and your friend to decide who's going to talk to the teacher. An app made to demonstrate my understanding of the DOM.",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "liveDemo": "https://mec0134.github.io/Dice-Game/",
+            "gitHubRepo": "https://github.com/MEC0134/Dice-Game",
+            "images": ["diceGame1.png", "diceGame2.png", "diceGame3.png"]
         }
     ]
 }

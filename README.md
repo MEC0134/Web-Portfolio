@@ -29,10 +29,10 @@ Make sure you have the following installed before proceeding:
 
 ## Usage
 
-1 Customize the Pug templates located in the `views` directory to match your design preferences.
-2 Place your project screenshots in the `public/img/projects` directory.
-3 Run the application: `npm start`/`node app.js` (`nodemon app.js` if you have it locally)
-4 Open your browser and visit: `http://localhost:3000`
+1. Customize the Pug templates located in the `views` directory to match your design preferences.
+2. Place your project screenshots in the `public/img/projects` directory.
+3. Run the application: `npm start`/`node app.js` (`nodemon app.js` if you have it locally)
+4. Open your browser and visit: `http://localhost:3000`
 
 
 ## Contributing

@@ -23,9 +23,9 @@ Make sure you have the following installed before proceeding:
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-web-portfolio.git`
-2. Navigate to the project directory: `cd your-web-portfolio`
-3. Install the dependencies: `npm install`
+1. Clone the repository: `git clone https://github.com/MEC0134/Web-Portfolio.git`
+2. Navigate to the project directory: `cd repository`
+3. Install the dependencies: `node app.js`
 
 ## Usage
 

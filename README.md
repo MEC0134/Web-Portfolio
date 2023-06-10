@@ -42,3 +42,5 @@ Contributions are welcome! If you find any issues or have suggestions for improv
  ## Live Webiste:
  
  #### [Go To Website](https://chivalrous-seasoned-gallium.glitch.me/)
+
+Note: Please give a few minutes for the live website to wake up.

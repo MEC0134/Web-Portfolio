@@ -182,6 +182,30 @@
                 "diceGame2.png",
                 "diceGame3.png"
             ]
+        },
+        {
+            "id": "10",
+            "projectName": "Equation Coffees",
+            "description": "An E-Commerce website designed to sell coffee developed using Laravel and eye-catching AI generated images.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "PHP",
+                "Laravel", 
+                "Bootstrap", 
+                "Mid-Journey",
+                "MySQL"
+            ],
+            "liveDemo": " ",
+            "gitHubRepo": "https://github.com/MEC0134/Equation-Coffees",
+            "images": [
+                "equation1.png",
+                "equation2.png",
+                "equation3.png",
+                "equation4.png",
+                "equation5.png",
+                "equation6.png"
+            ]
         }
     ]
 }

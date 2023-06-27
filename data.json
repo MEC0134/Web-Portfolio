@@ -186,7 +186,7 @@
         {
             "id": "10",
             "projectName": "Equation Coffees",
-            "description": "An E-Commerce website designed to sell coffee developed using Laravel and eye-catching AI generated images.",
+            "description": "An E-Commerce website designed to sell coffee developed using Laravel and eye-catching AI generated images. This project won 2nd place in our class.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -205,6 +205,51 @@
                 "equation4.png",
                 "equation5.png",
                 "equation6.png"
+            ]
+        },
+        {
+            "id": "11",
+            "projectName": "Blog Website",
+            "description": "A blog website built using NodeJS and EJS for dynamic rendering coupled with MongoDB to carry out CRUD operations..",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "NodeJS",
+                "Express", 
+                "Lodash", 
+                "Cookies",
+                "MongoDB"
+            ],
+            "liveDemo": " ",
+            "gitHubRepo": "https://github.com/MEC0134/Blog-EJS",
+            "images": [
+                "ejsBlog1.png",
+                "ejsBlog2.png",
+                "ejsBlog3.png",
+                "ejsBlog4.png"
+            ]
+        },
+        {
+            "id": "12",
+            "projectName": "To-Do-List MongoDB",
+            "description": "A to-do list designed using NodeJS and MongoDB with a modern interface and a dynamic functionality.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "NodeJS",
+                "Express", 
+                "MongoDB", 
+                "Mongoose",
+                "EJS",
+                "Lodash"
+            ],
+            "liveDemo": " ",
+            "gitHubRepo": "https://github.com/MEC0134/To-Do-List-Mongo",
+            "images": [
+                "toDoListMongo1.png",
+                "toDoListMongo2.png",
+                "toDoListMongo3.png",
+                "toDoListMongo4.png"
             ]
         }
     ]

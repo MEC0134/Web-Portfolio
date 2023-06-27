@@ -42,6 +42,7 @@ app.get('/about', (req, res) => {
 app.get('/project/:id', (req, res) => {
     const projectId = req.params.id;
     const project = myProjects.Projects.find(p => p.id === projectId);
+
     res.render('project', { project });
   });
   

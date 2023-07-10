@@ -2,6 +2,7 @@
     "Projects": [
         {
             "id": "0",
+            "category": "front-end",
             "projectName": "Simon Game",
             "description": "Game to test the limits of its users short term memory designed using mainly JQuery.",
             "technologies": [
@@ -20,6 +21,7 @@
         },
         {
             "id": "1",
+            "category": "front-end",
             "projectName": "Drum Kit",
             "description": "Web Application where the user can play different drums by cliking the buttons or using keyboard commands.",
             "technologies": [
@@ -36,6 +38,7 @@
         },
         {
             "id": "2",
+            "category": "front-end",
             "projectName": "Front-End Portfolio",
             "description": "Front-End Portfolio to showcase my front end web development skills by using very attractive colors and fonts and adding other features with user experience in mind.",
             "technologies": [
@@ -57,6 +60,7 @@
         },
         {
             "id": "3",
+            "category": "back-end",
             "projectName": "Pagination",
             "description": "Online contact list to display my abilities in using Vanilla Javascript to create my own custom pagination without the use of any built in functions of any library. ",
             "technologies": [
@@ -74,7 +78,8 @@
         },
         {
             "id": "4",
-            "projectName": "Noteness",
+            "category": "front-end",
+            "projectName": "Noteness (React)",
             "description": "A very modern and sleek looking note taking app created using React and working with forms in React which lets users create and delete notes.",
             "technologies": [
                 "HTML",
@@ -92,7 +97,8 @@
         },
         {
             "id": "5",
-            "projectName": "TinDog",
+            "category": "front-end",
+            "projectName": "TinDog (Bootstrap)",
             "description": "A website designed for dogs who want to connect with other dogs in their neighborhood. A very attractive website making use of the grid system of Bootstrap library to make it very mobile friendly.",
             "technologies": [
                 "HTML",
@@ -110,6 +116,7 @@
         },
         {
             "id": "6",
+            "category": "back-end",
             "projectName": "Employees Api",
             "description": "Creating a contact list by making use of the randomuser api and adding a search feature with modals for each employee.",
             "technologies": [
@@ -129,7 +136,8 @@
         },
         {
             "id": "7",
-            "projectName": "Beauty World",
+            "category": "back-end",
+            "projectName": "Beauty World (React)",
             "description": "A React app making use of API with the help of the Axios library to connect to the back-end to display cosmetic products to users and giving the ability to delete, load more and search for certain products.",
             "technologies": [
                 "HTML",
@@ -150,7 +158,8 @@
         },
         {
             "id": "8",
-            "projectName": "To Do List",
+            "category": "front-end",
+            "projectName": "To Do List (React)",
             "description": "A simple and attractive app used to create a to do list with the users having the ability to adjust the background-color of the app and a simple guide which display when the user first enters the page.",
             "technologies": [
                 "HTML",
@@ -158,8 +167,8 @@
                 "Javascript",
                 "React"
             ],
-            "liveDemo": "https://mec0134.github.io/to-do-list/",
-            "gitHubRepo": "https://github.com/MEC0134/to-do-list",
+            "liveDemo": "https://mec0134.github.io/React---To-Do-List/",
+            "gitHubRepo": "https://github.com/MEC0134/React---To-Do-List",
             "images": [
                 "toDoList.png",
                 "toDoList1.png",
@@ -168,6 +177,7 @@
         },
         {
             "id": "9",
+            "category": "front-end",
             "projectName": "Dice Game",
             "description": "A dice game made for you and your friend to decide who's going to talk to the teacher. An app made to demonstrate my understanding of the DOM.",
             "technologies": [
@@ -185,7 +195,8 @@
         },
         {
             "id": "10",
-            "projectName": "Equation Coffees",
+            "category": "full-stack",
+            "projectName": "Equation Coffees (LAMP)",
             "description": "An E-Commerce website designed to sell coffee developed using Laravel and eye-catching AI generated images. This project won 2nd place in our class.",
             "technologies": [
                 "HTML",
@@ -194,7 +205,9 @@
                 "Laravel", 
                 "Bootstrap", 
                 "Mid-Journey",
-                "MySQL"
+                "MySQL", 
+                "Autentication", 
+                "Sessions"
             ],
             "liveDemo": " ",
             "gitHubRepo": "https://github.com/MEC0134/Equation-Coffees",
@@ -209,7 +222,8 @@
         },
         {
             "id": "11",
-            "projectName": "Blog Website",
+            "category": "back-end",
+            "projectName": "Blog Website (Express)",
             "description": "A blog website built using NodeJS and EJS for dynamic rendering coupled with MongoDB to carry out CRUD operations..",
             "technologies": [
                 "HTML",
@@ -231,6 +245,7 @@
         },
         {
             "id": "12",
+            "category": "back-end",
             "projectName": "To-Do-List MongoDB",
             "description": "A to-do list designed using NodeJS and MongoDB with a modern interface and a dynamic functionality.",
             "technologies": [

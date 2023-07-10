@@ -27,12 +27,19 @@ html(class="no-js" lang="en" dir="ltr")
             //- Add about page route to the href below. 
             a(href="/about") Learn More →
 
+            hr
+
+            div.project-menu
+              a(data-section="all") All Projects 
+              a(data-section="front-end") Front-End 
+              a(data-section="back-end") Back-End 
+              a(data-section="full-stack") Full-Stack 
+
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
           span.title-bar-title M. Enes Celik
       block content
         

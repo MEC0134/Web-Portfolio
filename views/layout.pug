@@ -8,6 +8,7 @@ html(class="no-js" lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800' rel='stylesheet')
     link(rel='stylesheet' href='/static/css/foundation.css')
     link(rel='stylesheet' href='/static/css/style.css')
+
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
@@ -19,21 +20,19 @@ html(class="no-js" lang="en" dir="ltr")
 
             h5 M. Enes Celik
 
-            p.text-light
+            p.text-light.layout-para
               |Completed studying IT at Douglas College. Currently working to become a software developer. 
 
             a(href="/about") Learn More →
 
             hr
 
-            div.project-menu
+            div.project-menu.layout-para
               form(id="projectFilterForm" action="/filterProjs" method="POST")
                 button(type="submit" name="category" value="all") All Projects
                 button(type="submit" name="category" value="front-end") Front-End
                 button(type="submit" name="category" value="back-end") Back-End
                 button(type="submit" name="category" value="full-stack") Full-Stack
-
-
 
 
     .off-canvas-content(data-off-canvas-content='')
@@ -43,7 +42,6 @@ html(class="no-js" lang="en" dir="ltr")
 
           span.title-bar-title M. Enes Celik
       block content
-
 
 
   script(src='/static/js/vendor/jquery.js')

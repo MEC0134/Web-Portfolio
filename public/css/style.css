@@ -1,52 +1,60 @@
-
-h1,h2,h3,h4,h5,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   font-family: 'Merriweather', serif;
 }
 
-  h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
-
-  h6{
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-
-  p{
-    font-size: 15px;
-    color: #666;
-  }
-
-.round{
-  border-radius: 5px;
+.layout-para {
+  font-size: .8rem;
 }
 
-.text-light{
+h5 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+h6 {
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
   color: #666;
 }
 
-.button{
+.round {
+  border-radius: 5px;
+}
+
+.text-light {
+  color: #666;
+}
+
+.button {
   background-color: #333;
 }
 
-.button:hover{
+.button:hover {
   background-color: #111;
 }
 
-a{
+a {
   color: #333;
 }
 
-a:hover{
+a:hover {
   color: #111;
 }
 
-.image{
+.image {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
@@ -56,7 +64,7 @@ a:hover{
   line-height: 0;
 }
 
-.portfolio-me{
+.portfolio-me {
   padding: 20px;
   background-color: #0b0012;
   background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
@@ -64,26 +72,26 @@ a:hover{
   box-shadow: none !important;
 }
 
-  .portfolio-me p{
-    font-size: 14px;
-    color: #F9F5F6;
-  }
+.portfolio-me p {
+  font-size: 14px;
+  color: #F9F5F6;
+}
 
-  .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    color: #FFFAF4;
-    font-size: 13px;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
+.portfolio-me a {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #FFFAF4;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
 
-  .portfolio-me a:hover{
-    color: #999;
-  }
+.portfolio-me a:hover {
+  color: #999;
+}
 
-.portfolio-breadcrumb{
+.portfolio-breadcrumb {
   margin: 0;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
@@ -91,16 +99,16 @@ a:hover{
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
- .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   font-weight: 600;
-   font-size: 13px;
-   letter-spacing: 2.5px;
-   -webkit-text-transform: uppercase;
-   text-transform: uppercase;
- }
+.portfolio-breadcrumb a {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
 
-.portfolio-intro{
+.portfolio-intro {
   margin: 0;
   padding: 40px 50px 30px;
   color: #0b0012;
@@ -108,55 +116,59 @@ a:hover{
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
-.portfolio-intro p{
+.portfolio-intro p {
   border-bottom: 1px solid #eaeaea;
   color: #0b0012;
   padding-bottom: 40px;
 }
 
-.portfolio-index{
+.portfolio-index {
   margin: 0;
   padding: 10px 50px;
   background-color: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
-  .portfolio-index .thumbnail{
-    margin-bottom: 5px;
-  }
+.portfolio-index .thumbnail {
+  margin-bottom: 5px;
+}
 
-  .portfolio-index a{
-    color: #222;
-  }
+.thumbnail:hover {
+  transform:scale(1.1);
+}
 
-  .portfolio-index .cell{
-    margin-bottom: 15px;
-  }
+.portfolio-index a {
+  color: #222;
+}
 
-    .portfolio-index .cell h5{
-      letter-spacing: 1px;
-    }
+.portfolio-index .cell {
+  margin-bottom: 15px;
+}
 
-.portfolio-meta{
+.portfolio-index .cell h5 {
+  letter-spacing: 1px;
+}
+
+.portfolio-meta {
   padding-left: 25px;
   padding-right: 10px;
 }
 
-  .portfolio-meta .button{
-    margin-bottom: 5px;
-  }
+.portfolio-meta .button {
+  margin-bottom: 5px;
+}
 
-.portfolio-project p{
+.portfolio-project p {
   border: none;
 }
 
-.portfolio-project li{
+.portfolio-project li {
   font-size: 0.9em;
   color: #444;
 }
 
-.portfolio-bio{
-    line-height: 25px;
+.portfolio-bio {
+  line-height: 25px;
 }
 
 .project-menu {
@@ -173,4 +185,27 @@ a:hover{
   transform: scale(1.1);
 }
 
+.skills {
+  margin-left: 0;
+}
+
+.skills>li {
+  display: block;
+  margin: 0;
+}
+
+.contact-info {
+  margin-left: 0;
+}
+
+.contact-info>li {
+  margin: 0;
+  display: block;
+}
+
+ul>li {
+  display: inline;
+  list-style: none;
+  margin: 32px;
+}
 

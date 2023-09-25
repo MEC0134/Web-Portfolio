@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 
 // Require JSON File
 const myProjects = require('./data.json');
-let projectsToSend;
 
 // Assign app to express 
 const app = express();
@@ -16,13 +15,9 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.engine('pug', require('pug').__express);
-// Set up PUG for template engine 
 app.set('views', path.join(__dirname, "views"));
-// When we specify this we establish pug as our default engine so we do not need to mention any .pug extensions`
 app.set('view engine', 'pug');
-//  Upload Static Files to Server 
 app.use('/static', express.static(path.join(__dirname, 'public')));
-// app.use(express.static('images'));
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
 

@@ -209,7 +209,7 @@
                 "Autentication", 
                 "Sessions"
             ],
-            "liveDemo": " ",
+            "liveDemo": "",
             "gitHubRepo": "https://github.com/MEC0134/Equation-Coffees",
             "images": [
                 "equation1.png",
@@ -234,7 +234,7 @@
                 "Cookies",
                 "MongoDB"
             ],
-            "liveDemo": " ",
+            "liveDemo": "",
             "gitHubRepo": "https://github.com/MEC0134/Blog-EJS",
             "images": [
                 "ejsBlog1.png",
@@ -258,7 +258,7 @@
                 "EJS",
                 "Lodash"
             ],
-            "liveDemo": " ",
+            "liveDemo": "",
             "gitHubRepo": "https://github.com/MEC0134/To-Do-List-Mongo",
             "images": [
                 "toDoListMongo1.png",
@@ -285,7 +285,7 @@
                 "React-Router",
                 "Animations"
             ],
-            "liveDemo": " ",
+            "liveDemo": "",
             "gitHubRepo": "https://github.com/MEC0134/Weather-App-MERN",
             "images": [
                 "weatherApp1.gif",

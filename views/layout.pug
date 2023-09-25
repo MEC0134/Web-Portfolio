@@ -2,12 +2,12 @@
 html(class="no-js" lang="en" dir="ltr")
   head
     meta(charset='utf-8')
-    meta(http-equiv='x-ua-compatible', content='ie=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='x-ua-compatible' content='ie=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
     title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='/static/css/foundation.css')
-    link(rel='stylesheet', href='/static/css/style.css')
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800' rel='stylesheet')
+    link(rel='stylesheet' href='/static/css/foundation.css')
+    link(rel='stylesheet' href='/static/css/style.css')
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
@@ -17,34 +17,35 @@ html(class="no-js" lang="en" dir="ltr")
             img.thumbnail(src='/static/profilePic.jpg')
           .cell.auto
 
-            //- Add your name here.
             h5 M. Enes Celik
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
               |Completed studying IT at Douglas College. Currently working to become a software developer. 
 
-            //- Add about page route to the href below. 
             a(href="/about") Learn More →
 
             hr
 
             div.project-menu
-              a(data-section="all") All Projects 
-              a(data-section="front-end") Front-End 
-              a(data-section="back-end") Back-End 
-              a(data-section="full-stack") Full-Stack 
+              form(id="projectFilterForm" action="/filterProjs" method="POST")
+                button(type="submit" name="category" value="all") All Projects
+                button(type="submit" name="category" value="front-end") Front-End
+                button(type="submit" name="category" value="back-end") Back-End
+                button(type="submit" name="category" value="full-stack") Full-Stack
+
+
+
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
-          button.menu-icon(type='button', data-toggle='my-info')
+          button.menu-icon(type='button' data-toggle='my-info')
 
           span.title-bar-title M. Enes Celik
       block content
-        
 
-      
+
+
   script(src='/static/js/vendor/jquery.js')
   script(src='/static/js/vendor/what-input.js')
   script(src='/static/js/vendor/foundation.js')

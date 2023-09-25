@@ -266,6 +266,35 @@
                 "toDoListMongo3.png",
                 "toDoListMongo4.png"
             ]
+        },
+        {
+            "id": "13",
+            "category": "full-stack",
+            "projectName": "Clima - Weather App (MERN)",
+            "description": "Experience my MERN stack weather app, meticulously designed for user enjoyment. With a warm color scheme, engaging animations, and the use of two third-party APIs for weather information, an app that blends technology and fun seamlessly.",
+            "technologies": [
+                "React",
+                "CSS",
+                "NodeJS",
+                "Express", 
+                "MongoDB", 
+                "Material-UI",
+                "Authentication",
+                "JWT",
+                "Axios",
+                "React-Router",
+                "Animations"
+            ],
+            "liveDemo": " ",
+            "gitHubRepo": "https://github.com/MEC0134/Weather-App-MERN",
+            "images": [
+                "weatherApp1.gif",
+                "weatherApp2.png",
+                "weatherApp3.png",
+                "weatherApp4.gif",
+                "weatherApp5.gif",
+                "weatherApp6.gif"
+            ]
         }
     ]
 }

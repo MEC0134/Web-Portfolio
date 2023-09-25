@@ -10,17 +10,18 @@ block content
         | The purpose of this portfolio is to showcase to potenial employers my projects I have completed thus far in my software development journey.
         | There will be frequent updates on this site, when new projects are being uploaded or existing ones are being updated. 
   article.grid-container.portfolio-index
-    
+
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
       each project in projects.Projects
-        .cell
+        .cell(data-category=project.category)
           a(href=`/project/${project.id}`)
             - let imgURL = project.images && project.images.length > 0 ? project.images[0] : ""
             img.thumbnail(src=`images/${imgURL}`)
             h5= project.projectName
+            
 
 
-      
+
 
 

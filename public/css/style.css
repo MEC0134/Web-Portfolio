@@ -163,7 +163,14 @@ a:hover{
   margin-top: 10%; 
 }
 
-.project-menu a {
+.project-menu button {
+  color: #F9F5F6;
   display: block;
   margin-bottom: 5%; 
 }
+
+.project-menu button:hover {
+  transform: scale(1.1);
+}
+
+

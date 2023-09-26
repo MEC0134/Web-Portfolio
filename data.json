@@ -177,24 +177,6 @@
         },
         {
             "id": "9",
-            "category": "front-end",
-            "projectName": "Dice Game",
-            "description": "A dice game made for you and your friend to decide who's going to talk to the teacher. An app made to demonstrate my understanding of the DOM.",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "Javascript"
-            ],
-            "liveDemo": "https://mec0134.github.io/Dice-Game/",
-            "gitHubRepo": "https://github.com/MEC0134/Dice-Game",
-            "images": [
-                "diceGame1.png",
-                "diceGame2.png",
-                "diceGame3.png"
-            ]
-        },
-        {
-            "id": "10",
             "category": "full-stack",
             "projectName": "Equation Coffees (LAMP)",
             "description": "An E-Commerce website designed to sell coffee developed using Laravel and eye-catching AI generated images. This project won 2nd place in our class.",
@@ -221,7 +203,7 @@
             ]
         },
         {
-            "id": "11",
+            "id": "10",
             "category": "back-end",
             "projectName": "Blog Website (Express)",
             "description": "A blog website built using NodeJS and EJS for dynamic rendering coupled with MongoDB to carry out CRUD operations..",
@@ -244,7 +226,7 @@
             ]
         },
         {
-            "id": "12",
+            "id": "11",
             "category": "back-end",
             "projectName": "To-Do-List MongoDB",
             "description": "A to-do list designed using NodeJS and MongoDB with a modern interface and a dynamic functionality.",
@@ -268,7 +250,7 @@
             ]
         },
         {
-            "id": "13",
+            "id": "12",
             "category": "full-stack",
             "projectName": "Clima - Weather App (MERN)",
             "description": "Experience my MERN stack weather app, meticulously designed for user enjoyment. With a warm color scheme, engaging animations, and the use of two third-party APIs for weather information, an app that blends technology and fun seamlessly.",
@@ -292,8 +274,7 @@
                 "weatherApp2.png",
                 "weatherApp3.png",
                 "weatherApp4.gif",
-                "weatherApp5.gif",
-                "weatherApp6.gif"
+                "weatherApp5.gif"
             ]
         }
     ]

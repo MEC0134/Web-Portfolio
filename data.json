@@ -97,25 +97,6 @@
         },
         {
             "id": "5",
-            "category": "front-end",
-            "projectName": "TinDog (Bootstrap)",
-            "description": "A website designed for dogs who want to connect with other dogs in their neighborhood. A very attractive website making use of the grid system of Bootstrap library to make it very mobile friendly.",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "Font-Awesome"
-            ],
-            "liveDemo": "https://mec0134.github.io/TinDog---Tinder-For-Dogs/",
-            "gitHubRepo": "https://github.com/MEC0134/TinDog---Tinder-For-Dogs",
-            "images": [
-                "tindog.png",
-                "tindog1.png",
-                "tindog2.png"
-            ]
-        },
-        {
-            "id": "6",
             "category": "back-end",
             "projectName": "Employees Api",
             "description": "Creating a contact list by making use of the randomuser api and adding a search feature with modals for each employee.",
@@ -135,9 +116,9 @@
             ]
         },
         {
-            "id": "7",
+            "id": "6",
             "category": "back-end",
-            "projectName": "Beauty World (React)",
+            "projectName": "Cosmekosmos (React)",
             "description": "A React app making use of API with the help of the Axios library to connect to the back-end to display cosmetic products to users and giving the ability to delete, load more and search for certain products.",
             "technologies": [
                 "HTML",
@@ -157,7 +138,7 @@
             ]
         },
         {
-            "id": "8",
+            "id": "7",
             "category": "front-end",
             "projectName": "To Do List (React)",
             "description": "A simple and attractive app used to create a to do list with the users having the ability to adjust the background-color of the app and a simple guide which display when the user first enters the page.",
@@ -176,7 +157,7 @@
             ]
         },
         {
-            "id": "9",
+            "id": "8",
             "category": "full-stack",
             "projectName": "Equation Coffees (LAMP)",
             "description": "An E-Commerce website designed to sell coffee developed using Laravel and eye-catching AI generated images. This project won 2nd place in our class.",
@@ -203,7 +184,7 @@
             ]
         },
         {
-            "id": "10",
+            "id": "9",
             "category": "back-end",
             "projectName": "Blog Website (Express)",
             "description": "A blog website built using NodeJS and EJS for dynamic rendering coupled with MongoDB to carry out CRUD operations..",
@@ -226,7 +207,7 @@
             ]
         },
         {
-            "id": "11",
+            "id": "10",
             "category": "back-end",
             "projectName": "To-Do-List MongoDB",
             "description": "A to-do list designed using NodeJS and MongoDB with a modern interface and a dynamic functionality.",
@@ -250,7 +231,7 @@
             ]
         },
         {
-            "id": "12",
+            "id": "11",
             "category": "full-stack",
             "projectName": "Clima - Weather App (MERN)",
             "description": "Experience my MERN stack weather app, meticulously designed for user enjoyment. With a warm color scheme, engaging animations, and the use of two third-party APIs for weather information, an app that blends technology and fun seamlessly.",
